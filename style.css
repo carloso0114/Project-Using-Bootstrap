@@ -1,0 +1,74 @@
+.container {
+  background-color: #eee;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.a {
+  background-color: aqua;
+}
+
+.b {
+  background-color: aquamarine;
+}
+
+.c {
+  background-color: bisque;
+}
+
+.d {
+  background-color: blue;
+}
+
+.e {
+  background-color: violet;
+}
+
+.f {
+  background-color: red;
+}
+
+.g {
+  background-color: wheat;
+}
+
+.h {
+  background-color: royalblue;
+}
+
+.i {
+  background-color: violet;
+}
+
+.j {
+  background-color: navy;
+}
+
+.k {
+  background-color: olivedrab;
+}
+
+.l {
+  background-color: bisque;
+}
+
+.m {
+  background-color: orange;
+}
+
+.n {
+  background-color: orangered;
+}
+
+.o {
+  background-color: orchid;
+}
+
+.p {
+  background-color: olivedrab;
+}
