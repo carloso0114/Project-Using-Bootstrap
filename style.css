@@ -1,74 +1,39 @@
+* {
+  font-family: RobotoCondensed, Arial;
+  font-size: 16px;
+}
+
 .container {
   background-color: #eee;
 }
 
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/fonts/RobotoCondensed-Bold.ttf);
 }
 
-.a {
-  background-color: aqua;
+.title-h2 {
+  color: rgba(3,3,3,.4);
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-.b {
-  background-color: aquamarine;
+.category-tag {
+  position: absolute;
+  color: #f72210;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 1.4rem;
 }
 
-.c {
-  background-color: bisque;
+.featured-stories-section h3 {
+  font-size: 2.1rem;
 }
-
-.d {
-  background-color: blue;
-}
-
-.e {
-  background-color: violet;
-}
-
-.f {
-  background-color: red;
-}
-
-.g {
-  background-color: wheat;
-}
-
-.h {
-  background-color: royalblue;
-}
-
-.i {
-  background-color: violet;
-}
-
-.j {
-  background-color: navy;
-}
-
-.k {
-  background-color: olivedrab;
-}
-
-.l {
-  background-color: bisque;
-}
-
-.m {
-  background-color: orange;
-}
-
-.n {
-  background-color: orangered;
-}
-
-.o {
-  background-color: orchid;
-}
-
-.p {
-  background-color: olivedrab;
+.featured-stories-section p {
+  font-size: 1.4rem;
+  font-family: Arial;
+  line-height: 30px;
 }
