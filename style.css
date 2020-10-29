@@ -12,29 +12,27 @@
   src: url(assets/fonts/RobotoCondensed-Bold.ttf);
 }
 
-.title-h2 {
+.title-gray {
   color: rgba(3,3,3,.4);
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .category-tag {
   position: absolute;
   color: #f72210;
-  padding: 1rem;
+  padding: 0 0.6rem;
   left: 0;
   bottom: 0;
   background-color: white;
   font-weight: bolder;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
-.featured-stories-section h3 {
-  font-size: 2.1rem;
-}
-.featured-stories-section p {
+.top-articles h3 {
   font-size: 1.4rem;
+}
+.top-articles-p {
+  font-size: 1rem;
   font-family: Arial;
-  line-height: 30px;
 }
-
