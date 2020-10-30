@@ -376,13 +376,11 @@
           </article>
         </section>
 
-        <aside class="sign-up-aside border bg-dark">
-          <img class="mh-4 float-left" src="assets/img/logo-n1.svg" alt="#">
-          <div>
-          <h2>START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
-          <input type="email" placeholder="Email address">
-          <button type="submit">FREE SIGN UP ></button>
-        </div>
+        <aside class="sign-up-aside border bg-light p-3">
+          <div><img class="sign-up-logo mh-4 float-left mr-2" src="assets/img/logo-n1.svg" alt="#"></div>
+          <h2 class="h5">START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
+          <input class="form-control" type="email" placeholder="Email address">
+          <button class ="btn btn-danger btn-block mt-2" type="submit">FREE SIGN UP ></button>
         </aside>
       </div>
       <!-- RIGHT COLUMN END -->
@@ -391,57 +389,60 @@
 
 
     <div class="container-xl">
-      <div class="row">
         <!-- IN THE MAGAZINE -->
-        <section class="the-magazine-section g box col-lg col-md">
+        <section class="the-magazine-section">
+          <div><img class="sign-up-logo mh-4 float-left mr-2" src="assets/img/logo-n1.svg" alt="#"></div>
           <h2>IN THE MAGAZINE</h2>
-          <article class="the-magazine-article">
+          <div class=row>
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-1.webp" alt="">
-            <div>NOVEMBER 13 ISSUE</span></div>
-            <h3>SEE ALL FEATURES ></h3>
+            <div>NOVEMBER 13 ISSUE</div>
+            <h3 class="h5">SEE ALL FEATURES ></h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-2.webp" alt="">
-            <div><span>COVER</span><span>WORLD</span></div>
-            <h3>Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</h3>
+            <div class="magazine-tag"><span>COVER</span><span>WORLD</span></div>
+            <h3 class="h5">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-3.webp" alt="">
-            <div><span>PERISCOPE</span><span>U.S.</span></div>
-            <h3>With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</h3>
+            <div class="magazine-tag"><span>PERISCOPE</span><span>U.S.</span></div>
+            <h3 class="h5">With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-4.webp" alt="">
-            <div><span>PERISCOPE</span><span>OPINION</span></div>
-            <h3>Federal Legalization of Marijuana Would Be a Tragic Mistake</h3>
+            <div class="magazine-tag"><span>PERISCOPE</span><span>OPINION</span></div>
+            <h3 class="h5">Federal Legalization of Marijuana Would Be a Tragic Mistake</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-5.webp" alt="">
-            <div><span>PERISCOPE</span><span>CULTURE</span></div>
-            <h3>Legalization Is the Only Way to Improve the Criminal Justice System</h3>
+            <div class="magazine-tag"><span>PERISCOPE</span><span>CULTURE</span></div>
+            <h3 class="h5">Legalization Is the Only Way to Improve the Criminal Justice System</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-6.webp" alt="">
-            <div><span>DOWNTIME</span><span>CULTURE</span></div>
-            <h3>Otherworldly Natural Phenomena You've Got to See</h3>
+            <div class="magazine-tag"><span>DOWNTIME</span><span>CULTURE</span></div>
+            <h3 class="h5">Otherworldly Natural Phenomena You've Got to See</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-7.webp" alt="">
-            <div><span>DOWNTIME</span><span>CULTURE</span></div>
-            <h3>Sara Gilbert on Why the Conners Are Uniquely Qualified to Handle a Pandemic</h3>
+            <div class="magazine-tag"><span>DOWNTIME</span><span>CULTURE</span></div>
+            <h3 class="h5">Sara Gilbert on Why the Conners Are Uniquely Qualified to Handle a Pandemic</h3>
           </article>
-          <article class="the-magazine-article">
+          <article class="the-magazine-article col-lg-3 col-md-3">
             <img class="img-fluid" src="assets/img/in-the-magazine-8.webp" alt="">
-            <div><span>IN FOCUS</span></div>
-            <h3>ANNIVERSARY DAY</h3>
+            <div>IN FOCUS</div>
+            <h3 class="h5">ANNIVERSARY DAY</h3>
           </article>
+        </div>
         </section>
         <!-- IN THE MAGAZINE END -->
 
         <!-- EDITOR'S PICK -->
         <section class="editors-pick-section">
           <h2>EDITOR'S PICK</h2>
-          <article class="editors-pick-article">
+          <div class="row">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-1.webp" alt="">
             <div>BUSINESS</div>
             <h3>Why Google's Antitrust Case is Becoming Apple's Problem</h3>
@@ -449,14 +450,14 @@
               devices. Google, meanwhile, sees an approximate 50 percent of searches coming from Apple
               products.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-2.webp" alt="">
             <div>U.S.</div>
             <h3>Supreme Court Rejects North Carolina Mall-in Ballot Case In Blow to Trump</h3>
             <p>The case sought to shorten the window of time that North Carolina voters had for submitting
               mail-in ballots from nine days to three days.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-3.webp" alt="">
             <div>NEWS</div>
             <h3>Russian-Speaking Hackers Unleashing Attacks on US Hospitals, Officials Warn</h3>
@@ -464,7 +465,7 @@
               to
               U.S. hospitals and healthcare providers" on Thursday.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-4.webp" alt="">
             <div>U.S.</div>
             <h3>What Election Officials, Advocates Are Most Concerned About</h3>
@@ -472,28 +473,28 @@
               officials
               say it is more important than ever for voters to be well-informed.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-5.webp" alt="">
             <div>POLITICS</div>
             <h3>If Wisconsin Is a Guide, Philadelphia Riots Won't Help Trump</h3>
             <p>Polls suggest unrest in Wisconsin did not help President Trump win over more voters in the
               crucial state.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-6.webp" alt="">
             <div>HEALTH</div>
             <h3>White House Says Trump Ended Pandemic, Fauci Says We're 'Not Even Close'</h3>
             <p>COVID-19 has caused the "mother of all outbreaks over the last hundred years," said Fauci, a
               leading expert in infectious diseases.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-7.webp" alt="">
             <div>POLITICS</div>
             <h3>Biden Says Trump Refuses to Condemn 'Brutal Dictatorship' of Belarus</h3>
             <p>The Democrat condemned the "appalling human rights abuses" and called for tougher sanctions
               against the Lukashenko regime.</p>
           </article>
-          <article class="editors-pick-article">
+          <article class="editors-pick-article col-lg-3 col-md-6">
             <img class="img-fluid" src="assets/img/editors-pick-8.webp" alt="">
             <div>U.S.</div>
             <h3>Looting Breaks Out in Philadelphia As Walmart and Other Stores Ransacked</h3>
@@ -501,6 +502,7 @@
               amid
               a second successive night of unrest.</p>
           </article>
+        </div>
         </section>
         <!-- EDITOR'S PICK END-->
 
@@ -564,7 +566,7 @@
         <div class="i box col-lg col-md">
           <p class="h6">IN THE MAGAZINE 4</p>
         </div>
-      </div>
+
       <div class="row">
         <div class="i box col-lg-3 col-md-3">
           <p class="h6">IN THE MAGAZINE 5</p>
