@@ -33,6 +33,23 @@
   font-size: 1.4rem;
 }
 .top-articles-p {
-  font-size: 1rem;
+  margin: 0;
+  font-size: .9rem;
+  line-height: 1.2rem;
   font-family: Arial;
+}
+
+.the-debate-img {
+  width: 63px;
+  height: 63px;
+}
+
+.the-debate-article p {
+  color: #555;
+  font-weight: 100;
+}
+
+.the-debate-article span {
+  color: #555;
+  font-weight: bold;
 }
