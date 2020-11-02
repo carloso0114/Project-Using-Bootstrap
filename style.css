@@ -17,6 +17,10 @@
   font-family: RobotoCondensed-regular;
 }
 
+.nav-font-size a {
+  font-size: 1.2rem;
+}
+
 .title-gray {
   color: rgba(3, 3, 3, 0.4);
   font-size: 1rem;
@@ -44,14 +48,36 @@
   text-decoration-color: #f72210;
 }
 
-/* Red Header */
+.btn-color {
+  background-color: #ffe400;
+  height: 30px;
+  padding: 3px 10px;
+}
+
+/* Red Header big */
 .red-header {
   height: 95px;
   background-color: #f72210;
 }
 
-.main-logo {
+.main-big-logo {
   height: 60px;
+}
+
+/* Red Header normal */
+
+.main-normal-logo {
+  height: 20px;
+}
+
+.red-header-normal {
+  height: 50px;
+  background-color: #f72210;
+}
+
+.fa-bars {
+  color: rgba(255,255,255,.55);
+  font-size: 1.9rem;
 }
 
 /* Opinion Section */
@@ -102,6 +128,11 @@
   font-size: 0.9rem;
   line-height: 1.2rem;
   font-family: Arial;
+}
+
+.font-f-arial {
+  font-family: Arial;
+  font-size: 0.8rem;
 }
 
 /* The Debate Section*/
