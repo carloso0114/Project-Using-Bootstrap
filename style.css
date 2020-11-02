@@ -14,6 +14,28 @@
   font-weight: bold;
 }
 
+.text-red {
+  color: #f72210;
+}
+
+.fill-red {
+  fill: #f72210;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+/* Red Header */
+.red-header {
+  height: 95px;
+  background-color: #f72210;
+}
+
+.main-logo {
+  height: 60px;
+}
+
 /* Opinion Section */
 .opinion-article h3 {
   font-size: 17px;
@@ -129,3 +151,16 @@
 }
 
 /* Subscribe + Newsletter Aside */
+
+
+/* Footer */
+footer .nav-item {
+
+}
+
+footer .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  color: #555;
+}
