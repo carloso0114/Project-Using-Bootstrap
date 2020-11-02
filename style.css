@@ -18,7 +18,7 @@
 }
 
 .title-gray {
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   font-size: 1rem;
   font-weight: bold;
 }
@@ -33,6 +33,15 @@
 
 .fill-white {
   fill: #fff;
+}
+
+.max-w-1310 {
+  max-width: 1310px;
+}
+
+.hover-underline-red:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
 }
 
 /* Red Header */
@@ -71,7 +80,7 @@
   padding: 0 0.6rem;
   left: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   font-weight: bolder;
   font-size: 1rem;
 }
@@ -90,7 +99,7 @@
 
 .top-articles-p {
   margin: 0;
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.2rem;
   font-family: Arial;
 }
@@ -165,7 +174,6 @@
 
 /* Subscribe + Newsletter Aside */
 
-
 /* Footer */
 
 footer .nav-link {
@@ -173,4 +181,10 @@ footer .nav-link {
   font-size: 14px;
   line-height: 0;
   color: #555;
+}
+
+.footer-social-icons .fa {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: #666;
 }
