@@ -8,6 +8,15 @@
   src: url(assets/fonts/RobotoCondensed-Bold.ttf);
 }
 
+@font-face {
+  font-family: RobotoCondensed-regular;
+  src: url(assets/fonts/RobotoCondensed-Regular.ttf);
+}
+
+.roboto-regular {
+  font-family: RobotoCondensed-regular;
+}
+
 .title-gray {
   color: rgba(3, 3, 3, .4);
   font-size: 1rem;
@@ -50,6 +59,10 @@
   line-height: 21px;
   color: rgb(85, 85, 85);
   margin: 0;
+}
+
+.test {
+  line-height: 0;
 }
 
 .category-tag {
@@ -154,9 +167,6 @@
 
 
 /* Footer */
-footer .nav-item {
-
-}
 
 footer .nav-link {
   font-family: Arial, Helvetica, sans-serif;
