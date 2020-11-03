@@ -138,12 +138,26 @@
   font-size: 1.4rem;
 }
 
+.h-test {
+  height: 850px;
+  overflow-y: scroll;
+}
+
+.h-test::-webkit-scrollbar {
+  display: none;
+}
+
 .bg-light-1 {
   background-color: #f4f5f6;
 }
 
 .obj-cover {
   object-fit: cover;
+}
+
+.fixed-img {
+  width: 110px;
+  max-height: 110px;
 }
 
 .top-articles-p {
