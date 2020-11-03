@@ -1,76 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Responsive Design and CSS Frameworks
 
-> One paragraph statement about the project.
+> This is a clone of www.newsweek.com website.
 
-![screenshot](./assets/img/screenshot.png)
+![screenshot](./assets/preview/app_screenshot.png)
+![screenshot](./assets/preview/app_screenshot_2.png)
 
-Additional description about the project and its features.
+We use Bootstrap CSS classes everytime we could, to clone the website.
 
 ## Built With
 
 - HTML
 - CSS
+- Git
 - Bootstrap
 
 ## Live Demo
 
 [Live Demo Link](https://carloso0114.github.io/Project-Using-Bootstrap/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👨‍💻 **Breno Xavier**
 
 - GitHub: [@brenoxav](https://github.com/brenoxav)
-- Twitter: [@brenoxav](https://twitter.com/brenoxav)
 - LinkedIn: [Breno Xavier](https://linkedin.com/in/brenoxav)
 
 👨‍💻 **Carlos Ospina**
 
 - GitHub: [@carloso0114](https://github.com/carloso0114)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+- Twitter: [Carlos_Osp1](https://twitter.com/Carlos_Osp1)
+- LinkedIn: [Carlos Ospina](https://www.linkedin.com/in/carlos-ospina-242b831a6/)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

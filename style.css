@@ -1,5 +1,5 @@
 * {
-  font-family: RobotoCondensed, Arial;
+  font-family: RobotoCondensed, Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .roboto-regular {
-  font-family: RobotoCondensed-regular;
+  font-family: RobotoCondensed-regular, Arial, Helvetica, sans-serif;
 }
 
 .nav-font-size a {
@@ -41,6 +41,10 @@
 
 .max-w-1310 {
   max-width: 1310px;
+}
+
+.max-w-300 {
+  max-width: 300px;
 }
 
 .line-height-0 {
@@ -128,15 +132,15 @@
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.2rem;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 .font-f-arial {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 0.8rem;
 }
 
-/* The Debate Section*/
+/* The Debate Section */
 .the-debate-img {
   width: 63px;
   height: 63px;
@@ -162,7 +166,7 @@
   background-color: #d9d9d9;
   height: 1px;
   position: absolute;
-  left: 0px;
+  left: 0;
   right: 0;
   top: 12px;
 }
