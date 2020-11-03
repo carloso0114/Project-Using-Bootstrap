@@ -72,6 +72,11 @@
   height: 60px;
 }
 
+.navbar {
+  margin-top: 95px;
+  background-color: #fff;
+}
+
 /* Red Header normal */
 
 .main-normal-logo {
@@ -87,6 +92,19 @@
   color: rgba(255, 255, 255, 0.55);
   font-size: 1.2rem;
   line-height: 0;
+}
+
+/* Main container */
+.main-container {
+  padding-top: 220px;
+}
+
+.culture-tag {
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+  color: #333;
+  background-color: #c2d4d7;
 }
 
 /* Opinion Section */
@@ -188,6 +206,14 @@
   left: 0;
   right: 0;
   top: 14px;
+}
+
+/* Sponsored Insights */
+.sponsored-tag {
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Sign Up Aside */

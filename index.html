@@ -15,9 +15,10 @@
 <body>
   <header class="container-fluid max-w-1310 px-0 d-none d-lg-block">
     <!-- RED HEADER -->
-    <div class="red-header d-flex align-items-center justify-content-between px-4">
+    <div class="red-header fixed-top d-flex align-items-center justify-content-between px-4">
       <div class="local-date">
-        <svg class="fill-white d-inline bi bi-sun" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <svg class="fill-white d-inline bi bi-sun" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
           <path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z" />
           <path fill-rule="evenodd"
             d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" />
@@ -44,15 +45,18 @@
     <!-- RED HEADER END-->
 
     <!-- NAVBAR -->
-    <nav>
+    <nav class="navbar">
       <ul class="nav nav-justified flex-nowrap d-none d-lg-flex nav-font-size">
         <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">U.S.</a></li>
         <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">World</a></li>
-        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Business</a></li>
-        <li class="nav-item text-nowrap"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Tech &
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Business</a>
+        </li>
+        <li class="nav-item text-nowrap"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Tech
+            &
             Science</a></li>
         <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Culture</a></li>
-        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Newsgeek</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Newsgeek</a>
+        </li>
         <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Sports</a></li>
         <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Health</a></li>
         <li class="nav-item text-nowrap"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">The
@@ -204,7 +208,7 @@
       <!-- LEFT COLUMN END -->
 
       <!-- MIDDLE COLUMN -->
-      <div class="col-lg-6   col-md-7">
+      <div class="col-lg-5   col-md-7">
         <!-- TOP STORY -->
         <section class="top-story-section d-none d-md-block">
           <h2 class="title-gray">TOP STORY</h2>
@@ -249,16 +253,28 @@
           <h2 class="title-gray">CULTURE & TRAVEL</h2>
           <div class="row">
             <article class="culture-and-travel-article col-xm-12 col-md-4">
-              <img class="img-fluid w-100" src="assets/img/culture-and-travel-1.webp" alt="">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-1.webp" alt="">
+                <div class="culture-tag position-absolute px-1">ART</div>
+              </div>
               <h3 class="title-gray py-3">"Colette the Artist" Pig is Exactly What 2020 Needs Right Now</h3>
+
             </article>
             <article class="culture-and-travel-article col-xm-12 col-md-4">
-              <img class="img-fluid w-100" src="assets/img/culture-and-travel-2.webp" alt="">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-2.webp" alt="">
+                <div class="culture-tag position-absolute px-1">NOBEL</div>
+              </div>
               <h3 class="title-gray py-3">These Are the 57 Women Who Have Won the Nobel Prize</h3>
+
             </article>
             <article class="culture-and-travel-article col-xm-12 col-md-4">
-              <img class="img-fluid w-100" src="assets/img/culture-and-travel-3.webp" alt="">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-3.webp" alt="">
+                <div class="culture-tag position-absolute px-1">BOOKS</div>
+              </div>
               <h3 class="title-gray py-3">100 Monumental Novels From Literary History</h3>
+
             </article>
           </div>
         </section>
@@ -470,18 +486,70 @@
         </section>
         <!-- OPINION END -->
 
-        <!-- SIGN UP ASIDE -->
-        <div class="row d-flex justify-content-center my-4">
-          <aside class="sign-up-aside border bg-light p-3 col-12 max-w-300">
-            <div>
-              <img class="sign-up-logo mh-4 float-left mr-2" src="assets/img/logo-n1.svg" alt="#">
+        <!-- SPONSORED INSIGHTS -->
+        <section class="sponsored-insights-section">
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-1.jpg" alt="">
+              <span class="d-inline position-absolute sponsored-tag">SPONSORED INSIGHT</span>
             </div>
-            <h2 class="h5">START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
-            <input class="form-control" type="email" placeholder="Email address">
-            <button class="btn btn-danger btn-block mt-2" type="submit">FREE SIGN UP ></button>
-          </aside>
-        </div>
-        <!-- SIGN UP ASIDE END-->
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">Why are these careers so highly sought after?</h2>
+            <p class="top-articles-p px-3 pb-3">These are some of the most highly rated careers areas today. How do you get started in them?</p>
+          </article>
+          <!-- SIGN UP ASIDE -->
+          <div class="row d-flex justify-content-center my-4">
+            <aside class="sign-up-aside border bg-light p-3 col-12 max-w-300">
+              <div>
+                <img class="sign-up-logo mh-4 float-left mr-2" src="assets/img/logo-n1.svg" alt="#">
+              </div>
+              <h2 class="h5">START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
+              <input class="form-control" type="email" placeholder="Email address">
+              <button class="btn btn-danger btn-block mt-2" type="submit">FREE SIGN UP ></button>
+            </aside>
+          </div>
+          <!-- SIGN UP ASIDE END-->
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-2.png" alt="">
+              <div class="position-absolute sponsored-tag">RANKINGS</div>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">America's Best Nursing Homes 2021</h2>
+            <p class="top-articles-p px-3 pb-3">In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-3.png" alt="">
+              <span class="d-inline position-absolute sponsored-tag">SPONSORED INSIGHT</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">Who has the Leading Art, Design and Architecture Programs in 2020?</h2>
+            <p class="top-articles-p px-3 pb-3">The best Art, Design and Architecture schools use a recipe consisting of a blend of ingredients. Read more here.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-4.jpg" alt="">
+              <span class="d-inline position-absolute sponsored-tag">SPONSORED INSIGHT</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</h2>
+            <p class="top-articles-p px-3 pb-3">75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-5.png" alt="">
+              <span class="d-inline position-absolute sponsored-tag">RANKINGS</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">America's Best Addiction Treatment Centers 2020</h2>
+            <p class="top-articles-p px-3 pb-3">Newsweek partnered with global market research firm Statista Inc. to rank the best U.S. treatment facilities that focus on addiction.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-6.png" alt="">
+              <span class="d-inline position-absolute sponsored-tag">SURVEY</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">The Best Hospitals in the World</h2>
+            <p class="top-articles-p px-3 pb-3">Newsweek has partnered with Statista Inc., the global market research and consumer data firm, to develop the ranking of the world's best hospitals for the third year.</p>
+          </article>
+        </section>
+        <!-- SPONSORED INSIGHTS END -->
       </div>
       <!-- RIGHT COLUMN END -->
     </div>
@@ -727,8 +795,10 @@
               </path>
             </g>
           </svg>
-          <div class="col-xm-12 col-md d-flex align-items-end p-0"><span class="font-f-arial">© 2020 NEWSWEEK DIGITAL LLC</span></div>
-          <div class="col-xm-12 col-md footer-social-icons d-flex justify-content-start justify-content-md-end align-items-end p-0">
+          <div class="col-xm-12 col-md d-flex align-items-end p-0"><span class="font-f-arial">© 2020 NEWSWEEK DIGITAL
+              LLC</span></div>
+          <div
+            class="col-xm-12 col-md footer-social-icons d-flex justify-content-start justify-content-md-end align-items-end p-0">
             <a href="#"><i class="fa fa-facebook-official m-0" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
