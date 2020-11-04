@@ -160,8 +160,8 @@
 }
 
 .fixed-img {
-  width: 110px;
-  max-height: 110px;
+  width: 100%;
+  height: auto;
 }
 
 .top-articles-p {
