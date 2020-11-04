@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <script src="https://use.fontawesome.com/6a167e652a.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+</head>
+
+<body>
+  <header class="container-fluid max-w-1310 px-0 d-none d-lg-block">
+    <!-- RED HEADER -->
+    <div class="red-header fixed-top d-flex align-items-center justify-content-between px-4">
+      <div class="local-date">
+        <svg class="fill-white d-inline bi bi-sun" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z" />
+          <path fill-rule="evenodd" d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z" />
+        </svg>
+        <div class="text-white d-inline">32º Barranquilla, CO ></div>
+        <div class="text-white pt-2 font-weight-normal roboto-regular">Thu, Oct 29, 2020</div>
+      </div>
+      <div>
+        <svg class="main-big-logo fill-white" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+          <g>
+            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+            </path>
+          </g>
+        </svg>
+      </div>
+      <div class="pt-4">
+        <button class="btn text-white " type="button">LOGIN</button>
+        <button class="btn rounded-pill btn-color" type="submit">SUBSCRIBE ></button>
+      </div>
+    </div>
+    <!-- RED HEADER END-->
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="nav nav-justified flex-nowrap d-none d-lg-flex nav-font-size">
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">U.S.</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">World</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Business</a>
+        </li>
+        <li class="nav-item text-nowrap"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Tech
+            &
+            Science</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Culture</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Newsgeek</a>
+        </li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Sports</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Health</a></li>
+        <li class="nav-item text-nowrap"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">The
+            Debate</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Vantage</a></li>
+        <li class="nav-item"><a class="nav-link p-2 text-body border-right line-height-0 my-3" href="#">Weather</a></li>
+        <li class="nav-item text-body roboto-regular d-inline">
+          <div class="d-flex align-items-center my-1">
+            <input class="p-2 form-control border-0 line-height-0" type="text" placeholder="Search">
+            <svg width="3em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+            </svg>
+          </div>
+        </li>
+
+      </ul>
+      <ul class="nav flex-nowrap d-none d-lg-flex border-top border-bottom py-1 mb-3">
+        <li class="nav-item py-1 pl-4">TRENDING</li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">DONALD TRUMP</a></li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">JOE BIDEN</a></li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">STIMULUS PACKAGE</a></li>
+        <li class="nav-item pl-2"><a class="nav-link p-1 text-muted" href="#">CORONAVIRUS</a></li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">AMY CONEY BARRETT</a></li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">2020 ELECTION</a></li>
+        <li class="nav-item text-nowrap pl-2"><a class="nav-link p-1 text-muted" href="#">CONTIES THAT COUNT</a></li>
+      </ul>
+    </nav>
+    <!-- NAVBAR END -->
+  </header>
+
+  <header class="container-fluid max-w-1310 px-0 d-lg-none mb-4">
+    <!-- SMALL RED HEADER -->
+    <div class="red-header-normal d-flex align-items-center justify-content-between">
+      <div>
+        <svg class="main-normal-logo fill-white pl-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+          <g>
+            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+            </path>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <i class="fa fa-user d-md-none mx-3 nav-icon" aria-hidden="true"></i>
+        <button class="btn text-white d-none d-md-inline" type="button">LOGIN</button>
+        <button class="btn btn-color rounded-pill" type="submit">SUBSCRIBE ></button>
+        <button class="btn" type="button"><i class="fa fa-bars nav-icon" aria-hidden="true"></i></button>
+      </div>
+    </div>
+    <!-- SMALL RED HEADER END-->
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container-fluid max-w-1310 px-0">
+    <!-- FIRST ROW -->
+    <div class="row px-3">
+      <!-- LEFT COLUMN -->
+      <div class="col-lg  col-md-5">
+        <!-- TOP STORY SMALL -->
+        <section class="top-story-section d-md-none">
+          <h2 class="title-gray">TOP STORY</h2>
+          <article class="top-story top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2 w-100" src="assets/img/top-story.webp" alt="">
+              <span class="category-tag">WORLD</span>
+            </div>
+            <h3 class="hover-underline-red">Woman Beheaded in Church, Two Others Killed in Knife Attack in Nice, France
+            </h3>
+            <p class="top-articles-p pb-3">Police have cordoned off an area of the Basilica of Notre-Dame de Nice
+              following
+              the
+              suspected
+              terror attack on Thursday morning.</p>
+          </article>
+        </section>
+        <!-- TOP STORY SMALL END -->
+
+        <!-- FEATURED STORIES -->
+        <section class="featured-stories-section">
+          <h2 class="title-gray">FEATURED STORIES</h2>
+          <article class="featured-stories top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/featured-stories-1.webp" alt="phili-police">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="hover-underline-red">Philadelphia Police Find Van Filled With Explosives</h3>
+            <p class="top-articles-p pb-3">Police recovered propane tanks, torches and possible dynamite sticks from the
+              van
+              at Logan
+              Circle
+              in Center City.</p>
+          </article>
+          <article class="featured-stories top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2 w-100" src="assets/img/featured-stories-2.webp" alt="democrats">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="hover-underline-red">Democrats Accuse Louis DeJoy of Sabotaging Election</h3>
+            <p class="top-articles-p pb-3">USPS on-time delivery rates have declined in recent weeks, potentially
+              putting
+              mail-in
+              ballots at
+              risk.</p>
+          </article>
+          <article class="featured-stories top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/featured-stories-3.webp" alt="virus">
+              <span class="category-tag">WORLD</span>
+            </div>
+            <h3 class="hover-underline-red">Siberian Virologist Reinfects Himself With Coronavirus in Experiment</h3>
+            <p class="top-articles-p pb-3">Alexander Chepurnov spent time with COVID-19 patients without a mask on in a
+              bid
+              to get the
+              virus
+              for a second time.</p>
+          </article>
+          <article class="featured-stories top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/featured-stories-4.webp" alt="washintong">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="hover-underline-red">China Media Says U.S. Arrest of Five 'Illegal Agents' Is Political</h3>
+            <p class="top-articles-p pb-3">The Justice Department announced charges against eight people Wednesday,
+              accused
+              of
+              involvement
+              in China's anti-corruption Operation Fox Hunt.</p>
+          </article>
+          <article class="featured-stories top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/featured-stories-5.webp" alt="trump">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="hover-underline-red">Trump Motivates Biden Voters Just As Much As the Democrat Does: Poll</h3>
+            <p class="top-articles-p pb-3">Some Democrat voters see their ballot as a "vote for Biden",while others see
+              it as
+              a "vote
+              against Trump", a new poll suggests.</p>
+          </article>
+        </section>
+        <!-- FEATURED STORIES END -->
+      </div>
+      <!-- LEFT COLUMN END -->
+
+      <!-- MIDDLE COLUMN -->
+      <div class="col-lg-5 col-md-7">
+        <!-- TOP STORY -->
+        <section class="top-story-section d-none d-md-block">
+          <h2 class="title-gray">TOP STORY</h2>
+          <article class="top-story top-articles">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/top-story.webp" alt="">
+              <span class="category-tag">WORLD</span>
+            </div>
+            <h3 class="hover-underline-red">Woman Beheaded in Church, Two Others Killed in Knife Attack in Nice, France
+            </h3>
+            <p class="top-articles-p pb-3">Police have cordoned off an area of the Basilica of Notre-Dame de Nice
+              following
+              the
+              suspected
+              terror attack on Thursday morning.</p>
+          </article>
+        </section>
+        <!-- TOP STORY END -->
+
+        <!-- MY TURN -->
+        <section class="my-turn-section">
+          <h2 class="title-gray">MY TURN</h2>
+          <div class="row">
+            <article class="my-turn-article col-xm-12 col-md-4">
+              <img class="img-fluid w-100" src="assets/img/my-turn-article-1.webp" alt="">
+              <h3 class="title-gray py-3">'I Oversee More Than 1,000 Funerals a Year—It's Not As Sad As You Expect'</h3>
+            </article>
+            <article class="my-turn-article col-xm-12 col-md-4">
+              <img class="img-fluid w-100" src="assets/img/my-turn-article-2.webp" alt="">
+              <h3 class="title-gray py-3">'I'm a Political Comedian, Trump Fans Are Heckling Me More Than Ever'</h3>
+            </article>
+            <article class="my-turn-article col-xm-12 col-md-4">
+              <img class="img-fluid w-100" src="assets/img/my-turn-article-3.webp" alt="">
+              <h3 class="title-gray py-3">'We Adopted Four Kids, Then Discovered We Were Pregnant With Quadruplets'</h3>
+            </article>
+          </div>
+        </section>
+        <!-- MY TURN END -->
+
+        <!-- CULTURE & TRAVEL -->
+        <section class="culture-and-travel-section">
+          <h2 class="title-gray">CULTURE & TRAVEL</h2>
+          <div class="row">
+            <article class="culture-and-travel-article col-xm-12 col-md-4">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-1.webp" alt="">
+                <div class="culture-tag position-absolute px-1">ART</div>
+              </div>
+              <h3 class="title-gray py-3">"Colette the Artist" Pig is Exactly What 2020 Needs Right Now</h3>
+
+            </article>
+            <article class="culture-and-travel-article col-xm-12 col-md-4">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-2.webp" alt="">
+                <div class="culture-tag position-absolute px-1">NOBEL</div>
+              </div>
+              <h3 class="title-gray py-3">These Are the 57 Women Who Have Won the Nobel Prize</h3>
+
+            </article>
+            <article class="culture-and-travel-article col-xm-12 col-md-4">
+              <div class="position-relative">
+                <img class="img-fluid w-100" src="assets/img/culture-and-travel-3.webp" alt="">
+                <div class="culture-tag position-absolute px-1">BOOKS</div>
+              </div>
+              <h3 class="title-gray py-3">100 Monumental Novels From Literary History</h3>
+
+            </article>
+          </div>
+        </section>
+        <!-- CULTURE & TRAVEL END-->
+
+        <!-- MORE STORIES -->
+        <section class="more-stories-section h-test">
+          <h2 class="title-gray">MORE STORIES</h2>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-1.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Fauci Warns Herd Immunity Will Kill People: 'An Unacceptable Pathway'
+              </h3>
+              <p class="top-articles-p">The U.S.'s leading immunologist comments were followed by reports the White
+                House was using
+                heard immunity as a basis for policy.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-2.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Jaime Harrison Takes Aim at Lindsey Graham Over Supreme Court Flip</h3>
+              <p class="top-articles-p">The Democratic contender for South Carolina told "Late Show" host Stephen
+                Colbert "Lindsey
+                Graham's word isn't worth much of anything."</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-3.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">California Fires, Silverado, Blue Ridge Blazes Incinerate Over 27,000
+                Acres</h3>
+              <p class="top-articles-p">There are 18 large active fires burning in California, which have collectively
+                burned over
+                2.2
+                million acres, according to the National Interagency Fire Center.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-4.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Stimulus Deal Hinges More on the Election Than Economics</h3>
+              <p class="top-articles-p">Imminent GDP data is expected to present the biggest rebound for output since
+                World War II.
+                But
+                experts say the main driver of the size and timing a potential future stimulus package will
+                be
+                political.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-5.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Joe Biden Gives Marine's Mother Command Coin in Viral Video</h3>
+              <p class="top-articles-p">Command coins are a military tradition used to denote unit allegiance and reward
+                troops for
+                good
+                performance.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-6.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Ossoff Attack on Perdue at Georgia Debate Watched Over 2 Million Times
+              </h3>
+              <p class="top-articles-p">The Georgia Democratic accused the Republican incumbent of trying to end health
+                insurance
+                protections for those with pre-existing conditions.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-7.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">'Would You Hire Trump?': Job Interview Attack Ad Questions President's
+                Past</h3>
+              <p class="top-articles-p">The critical advert mentions business failures and past allegations made against
+                the
+                president as
+                it questions his credentials.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-8.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">AOC Says She Viewed Stacks of Photos Showing 'People Who Want to Kill'
+                Her</h3>
+              <p class="top-articles-p">Rep. Alexandra Ocasio-Cortez details some of the death threats and abuse aimed
+                toward her and
+                those closest to her in a recent cover story for Vanity Fair.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-9.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Trump Set to Win 2020 Election Says Professor Who Called 2016 Race</h3>
+              <p class="top-articles-p">Incumbency factors could propel Trump over the finish line in the 2020 election,
+                according to
+                John Antonakis.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-10.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Some Pennsylvania Voters Think Joe Biden is Repeating Clinton's
+                Mistakes</h3>
+              <p class="top-articles-p">During radio segments Newsweek took part in this week, voters who identified
+                themselves as
+                life-long Democrats until 2016 said Trump's frequent trips to the state persuaded them to
+                vote
+                for him then, and they are sticking with him this time around.</p>
+            </div>
+          </article>
+          <article class="more-stories-article border-top pt-3 pb-3">
+            <img class="float-left pr-3" src="assets/img/more-stories-article-11.webp" alt="">
+            <div class="clearfix">
+              <h3 class="h6 hover-underline-red">Stocks Are Dropping as the Election Nears, Giving Trump a Florida
+                Problem</h3>
+              <p class="top-articles-p">The swing state is a magnet for retirees, drawn by the warm weather and lower
+                taxes.</p>
+            </div>
+          </article>
+        </section>
+        <!-- MORE STORIES END -->
+      </div>
+      <!-- MIDDLE COLUMN END-->
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-lg">
+        <!-- THE DEBATE -->
+        <section class="the-debate-section">
+          <h2 class="title-gray">THE DEBATE</h2>
+          <article class="the-debate-article border-top border-bottom pt-3 pb-3 mb-3">
+            <div class="mb-3">
+              <img class="the-debate-img float-left img-fluid mr-3" src="assets/img/the-debate-1.webp" alt="Will-Chamberlain">
+              <a class="h6 text-dark hover-underline-red" href="#">Reform Section 230 Now</a>
+              <p>BY <span>WILL CHAMBERLAIN</span></p>
+            </div>
+
+            <div class="position-relative d-flex justify-content-center vs-text">
+              <div class="rounded-circle text-white bg-dark display-block">VS</div>
+            </div>
+
+
+            <div class="mt-3">
+              <img class="the-debate-img float-right img-fluid" src="assets/img/the-debate-2.webp" alt="Matthew-Feeney">
+              <a class="h6 text-dark hover-underline-red" href="#">Leave Section 230 Alone</a>
+              <p>BY <span>MATTHEW FEENEY</span></p>
+            </div>
+          </article>
+        </section>
+        <!-- THE DEBATE END -->
+
+        <!-- OPINION -->
+        <section class="opinion-section col-lg p-0">
+          <h2 class="title-gray">OPINION</h2>
+          <article class="opinion-article d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-1.webp" alt="Gordon">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">Will China's Digital Yuan Replace the Dollar?</a>
+              </h3>
+              <p>BY GORDON G. CHANG</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-2.webp" alt="Newt">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">Every Vote Matters</a></h3>
+              <p>BY NEWT GINGRICH</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-3.webp" alt="Thomas">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">Why I'm Voting for Donald Trump</a></h3>
+              <p>BY THOMAS L. KRANNAWITTER, PH.D.</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-4.webp" alt="Michael">
+            <div class="w-100 h-100">
+              <h3><a class="text-dark hover-underline-red" href="#">How to Hold China Accountable on Human Rights</a>
+              </h3>
+              <p>BY MICHAEL SOBOLIK</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-5.webp" alt="Sal">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">How Trump Can Secure Florida</a></h3>
+              <p>BY SAL NUZZO</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-6.webp" alt="Bruce">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">Why So Many Polls Favor Biden</a></h3>
+              <p>BY BRUCE ABRAMSON AND JEFF BALLABON</p>
+            </div>
+          </article>
+          <article class="opinion-article border-top pt-2 pb-2 d-flex">
+            <img class="img-fluid h-100 mr-3" src="assets/img/the-opinion-7.webp" alt="Nate">
+            <div>
+              <h3><a class="text-dark hover-underline-red" href="#">Political Miscalculation Puts Social Media Companies
+                  at Risk</a></h3>
+              <p>BY NATE FISCHER</p>
+            </div>
+          </article>
+        </section>
+        <!-- OPINION END -->
+
+        <!-- SPONSORED INSIGHTS -->
+        <section class="sponsored-insights-section">
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-1.jpg" alt="">
+              <span class="d-inline position-absolute sponsored-tags">SPONSORED INSIGHT</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">Why are these careers so highly sought after?</h2>
+            <p class="top-articles-p px-3 pb-3">These are some of the most highly rated careers areas today. How do you
+              get started in them?</p>
+          </article>
+          <!-- SIGN UP ASIDE -->
+          <div class="row d-flex justify-content-center my-4">
+            <aside class="sign-up-aside border bg-light p-3 col-12 max-w-300">
+              <div>
+                <img class="sign-up-logo mh-4 float-left mr-2" src="assets/img/logo-n1.svg" alt="#">
+              </div>
+              <h2 class="h5">START YOUR DAY WITH OUR TOP 5 ARTICLES</h2>
+              <input class="form-control" type="email" placeholder="Email address">
+              <button class="btn btn-danger btn-block mt-2" type="submit">FREE SIGN UP ></button>
+            </aside>
+          </div>
+          <!-- SIGN UP ASIDE END-->
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-2.png" alt="">
+              <div class="position-absolute sponsored-tags">RANKINGS</div>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">America's Best Nursing Homes 2021</h2>
+            <p class="top-articles-p px-3 pb-3">In partnership with Statista, we established a ranking providing
+              information and insights to help you during this challenging time.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-3.png" alt="">
+              <span class="d-inline position-absolute sponsored-tags">SPONSORED INSIGHT</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">Who has the Leading Art, Design and Architecture Programs
+              in 2020?</h2>
+            <p class="top-articles-p px-3 pb-3">The best Art, Design and Architecture schools use a recipe consisting of
+              a blend of ingredients. Read more here.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-4.jpg" alt="">
+              <span class="d-inline position-absolute sponsored-tags">SPONSORED INSIGHT</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">This Startup Is Making Long Distance Real Estate Investing
+              Possible for Millennials</h2>
+            <p class="top-articles-p px-3 pb-3">75% of Roofstock users are first-time real estate investors, and more
+              than half are under 35.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-5.png" alt="">
+              <span class="d-inline position-absolute sponsored-tags">RANKINGS</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">America's Best Addiction Treatment Centers 2020</h2>
+            <p class="top-articles-p px-3 pb-3">Newsweek partnered with global market research firm Statista Inc. to
+              rank the best U.S. treatment facilities that focus on addiction.</p>
+          </article>
+          <article class="sponsored-insights-article border my-4">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/sponsored-insights-6.png" alt="">
+              <span class="d-inline position-absolute sponsored-tags">SURVEY</span>
+            </div>
+            <h2 class="h4 hover-underline-red px-3 pt-3 pb-1">The Best Hospitals in the World</h2>
+            <p class="top-articles-p px-3 pb-3">Newsweek has partnered with Statista Inc., the global market research
+              and consumer data firm, to develop the ranking of the world's best hospitals for the third year.</p>
+          </article>
+        </section>
+        <!-- SPONSORED INSIGHTS END -->
+      </div>
+      <!-- RIGHT COLUMN END -->
+    </div>
+    <!-- FIRST ROW END -->
+
+    <!-- SECOND ROW -->
+    <div class="row px-3">
+      <!-- IN THE MAGAZINE -->
+      <section class="container-fluid the-magazine-section">
+        <div class="d-flex justify-content-center mt-3 mb-3 border-bottom">
+          <div class="align-items-center">
+            <img class="sign-up-logo float-left mr-2" src="assets/img/logo-n1.svg" alt="#">
+          </div>
+          <h2 class="h5">IN THE MAGAZINE</h2>
+        </div>
+        <div class="row position-relative">
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/img/in-the-magazine-1.webp" alt="">
+              <span class="category-tag pb-2">U.S.</span>
+            </div>
+            <h3 class="h5 bg-light-1 mt-1 text-center p-2">SEE ALL FEATURES ></h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-2.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class="py-1 px-2">COVER</span>
+              <span class=" py-1 px-2">WORLD</span>
+            </div>
+            <h3 class="h5 hover-underline-red">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence
+              Effort</h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-3.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class="py-1 px-2">PERISCOPE</span>
+              <span class=" py-1 px-2">U.S.</span>
+            </div>
+            <h3 class="h5 hover-underline-red">With Amy Coney Barrett Confirmed, Does John Roberts Still Matter?</h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-4.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class="py-1 px-2">PERISCOPE</span>
+              <span class=" py-1 px-2">OPINION</span>
+            </div>
+            <h3 class="h5 hover-underline-red">Federal Legalization of Marijuana Would Be a Tragic Mistake</h3>
+          </article>
+        </div>
+        <div class="row">
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-5.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class=" py-1 px-2">PERISCOPE</span>
+              <span class=" py-1 px-2">CULTURE</span>
+            </div>
+            <h3 class="h5 hover-underline-red">Legalization Is the Only Way to Improve the Criminal Justice System</h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-6.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class=" py-1 px-2">DOWNTIME</span>
+              <span class=" py-1 px-2">CULTURE</span>
+            </div>
+            <h3 class="h5 hover-underline-red">Otherworldly Natural Phenomena You've Got to See</h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover" src="assets/img/in-the-magazine-7.webp" alt="">
+            <div class="magazine-tag mt-2 mb-2">
+              <span class=" py-1 px-2">DOWNTIME</span>
+              <span class=" py-1 px-2">CULTURE</span>
+            </div>
+            <h3 class="h5 hover-underline-red">Sara Gilbert on Why the Conners Are Uniquely Qualified to Handle a
+              Pandemic</h3>
+          </article>
+          <article class="the-magazine-article col-lg-3 col-md-3">
+            <img class="img-fluid pt-4 obj-cover w-100" src="assets/img/in-the-magazine-8.webp" alt="">
+            <div>IN FOCUS</div>
+            <h3 class="h5 hover-underline-red">ANNIVERSARY DAY</h3>
+          </article>
+        </div>
+      </section>
+      <!-- IN THE MAGAZINE END -->
+    </div>
+    <!-- SECOND ROW END-->
+
+    <!-- THIRD ROW -->
+    <div class="row px-3">
+      <!-- EDITOR'S PICK -->
+      <section class="container-fluid editors-pick-section">
+        <div class="d-flex justify-content-center mt-3 border-bottom">
+          <div class="align-items-center">
+            <img class="sign-up-logo float-left mr-2" src="assets/img/logo-n1.svg" alt="#">
+          </div>
+          <h2 class="h5">EDITOR'S PICK</h2>
+        </div>
+        <div class="row">
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-1.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">Why Google's Antitrust Case is Becoming Apple's Problem</h3>
+            <p class="top-articles-p">Google pays Apple an estimated $10 billion per year to be the default search
+              engine on its
+              devices. Google, meanwhile, sees an approximate 50 percent of searches coming from Apple
+              products.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-2.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">Supreme Court Rejects North Carolina Mall-in Ballot Case In Blow to Trump
+            </h3>
+            <p class="top-articles-p">The case sought to shorten the window of time that North Carolina voters had for
+              submitting
+              mail-in ballots from nine days to three days.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-3.webp" alt="">
+              <span class="category-tag">WORLD</span>
+            </div>
+            <h3 class="h4 hover-underline-red">Russian-Speaking Hackers Unleashing Attacks on US Hospitals, Officials
+              Warn</h3>
+            <p class="top-articles-p">U.S. officials warned of "credible information of an increased and imminent
+              cybercrime threat
+              to
+              U.S. hospitals and healthcare providers" on Thursday.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-4.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">What Election Officials, Advocates Are Most Concerned About</h3>
+            <p class="top-articles-p">With in-person voting looking very different this year due to the coronavirus
+              pandemic,
+              officials
+              say it is more important than ever for voters to be well-informed.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-5.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">If Wisconsin Is a Guide, Philadelphia Riots Won't Help Trump</h3>
+            <p class="top-articles-p">Polls suggest unrest in Wisconsin did not help President Trump win over more
+              voters in the
+              crucial state.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-6.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">White House Says Trump Ended Pandemic, Fauci Says We're 'Not Even Close'
+            </h3>
+            <p class="top-articles-p">COVID-19 has caused the "mother of all outbreaks over the last hundred years,"
+              said Fauci, a
+              leading expert in infectious diseases.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-7.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">Biden Says Trump Refuses to Condemn 'Brutal Dictatorship' of Belarus</h3>
+            <p class="top-articles-p">The Democrat condemned the "appalling human rights abuses" and called for tougher
+              sanctions
+              against the Lukashenko regime.</p>
+          </article>
+          <article class="editors-pick-article mt-3 col-lg-3 col-md-6">
+            <div class="position-relative">
+              <img class="img-fluid pb-2" src="assets/img/editors-pick-8.webp" alt="">
+              <span class="category-tag">U.S.</span>
+            </div>
+            <h3 class="h4 hover-underline-red">Looting Breaks Out in Philadelphia As Walmart and Other Stores Ransacked
+            </h3>
+            <p class="top-articles-p">Police in Philadelphia warned residents in several of the city's districts to
+              remain indoors
+              amid
+              a second successive night of unrest.</p>
+          </article>
+        </div>
+      </section>
+      <!-- EDITOR'S PICK END-->
+    </div>
+    <!-- THIRD ROW END -->
+
+    <!-- FORTH ROW U.S CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">U.S</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/us-category-1.webp" alt="trump-vs-biden">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">What Final Polls Say About Trump vs. Biden in Key Swing
+            States</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/us-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">What Final Polls Say About Lindsey Graham vs Jaime
+            Harrison in SC</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/us-category-3.webp" alt="Newspaper">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Biggest Spanish Newspaper in U.S Declares Trump
+              Should Go</a>
+          </div>
+          <div class="row py-3 border-top border-bottom">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/us-category-4.webp" alt="Joe Biden">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">More Money Bet on Joe Biden than Donald Trump in
+              24 Hours Before Election</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/us-category-5.webp" alt="Cookie">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Pennsylvania Bakery Cookie Poll Has Trump As 2020
+              Winner</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- END OF FORTH ROW -->
+
+    <!-- 5TH ROW WORLD CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">World</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/world-category-1.webp" alt="shark">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Shark Killed by Swordfish Prompts Fears of Overfishing
+            Impact on Predators</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/world-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Lawmakers Demand China Watchdog to Oversee Beijing's
+            Activity in U.K.</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/world-category-3.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">McDonald's HQ Raided in Food Poisoning
+              Investigation of Alleged 'Hamburger</a>
+          </div>
+          <div class="row py-3 border-top border-bottom">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/world-category-4.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Girl, 4, Pulled Alive From Rubble 91 Hours After
+              Devastating Earthquake</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/world-category-5.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Hong Kong Chief Warns Trump, Biden about U.S.
+              Business Interests</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- END OF 5TH ROW WORLD CATEGORY-->
+
+    <!-- 6TH ROW BUSINESS CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">Business</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/business-category-1.webp" alt="shark">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Deutsche Bank Discussed Selling Trump's Loans, Feared No
+            Buyers: Report</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/business-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Work-Related Anxiety Is Off the Charts. These Four Moves
+            Will Help</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/business-category-3.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Stocks Are Dropping as the Election Nears, Giving
+              Trump a Florida Problem</a>
+          </div>
+          <div class="row py-3 border-top border-bottom">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/business-category-4.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Stimulus Deal Hinges More on the Election Than
+              Economics</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/business-category-5.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Why Google's Antitrust Case is Becoming Apple's
+              Problem</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- END OF 6TH ROW BUSINESS CATEGORY-->
+
+    <!--  7TH ROW TECH & SCIENCE CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">Tech & Science</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/tech-category-1.webp" alt="shark">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Biden Facebook Likes Growing Faster Than Trump, Still 27 Million Behind</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/tech-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Shark Bites Teenager in 10th Attack Off Coast of Florida County This Year</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/tech-category-3.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Fake Trump Account Suspended After Tweeting 'Don't
+              Vote for Me'</a>
+          </div>
+          <div class="row py-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/tech-category-4.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Swarm of Angry Bees Hospitalizes Mother and Her
+              Two Children in Arizona</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/tech-category-5.webp" alt="">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Donald Trump's Most Liked Tweets in the past Four
+              Years</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--  END OF 7TH ROW TECH & SCIENCE CATEGORY-->
+
+    <!--  8TH ROW CULTURE CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">Culture</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/culture-category-1.webp" alt="shark">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Claudia Jordan Points Out That Lil Pump Hasn't Always Been Pro-Trump</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/culture-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">This Little Book from 1917 Lists Every Reason Why Women Shouldn't Vote</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/culture-category-3.webp" alt="Tayshia Adams">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Tayshia Adams and Clare Crawley Want You To Vote,
+              Not Watch 'Bachelorette'</a>
+          </div>
+          <div class="row py-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/culture-category-4.webp" alt="Rick Astley">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Rick Astley Just RickRolled All of TikTok, Now
+              Known as 'RickTok'</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/culture-category-5.webp" alt="Kirstie Alley">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Kirstie Alley Blasts 'Tolerant Righteous' Liberals
+              in Election Day Rant</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--  END OF 8TH ROW CULTURE CATEGORY-->
+
+    <!--  9TH ROW SPORTS CATEGORY-->
+    <div class="row container-fluid border-top py-3 my-3">
+      <h2 class="text-red px-3 h4">Sports</h2>
+      <section class="row px-3">
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/sports-category-1.webp" alt="shark px-3">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Election Day Is Also Kaepernick's Birthday, and Some Think It's a Good Omen</a>
+        </article>
+        <article class="col-xs-12 col-md-4 d-flex flex-column d-md-block">
+          <div>
+            <img class="img-fluid w-100 mb-2" src="assets/img/sports-category-2.webp" alt="jaime-harrinson">
+          </div>
+          <a class="h4 hover-underline-red text-reset" href="#">Aubrey Huff Thinks Trump Will Win Greatest Election Landslide since Reagan</a>
+        </article>
+        <div class="col-xs-12 col-md-4">
+          <div class="row pb-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/sports-category-3.webp" alt="Steph Curry">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Steph Curry Urges People to 'Be Brave' and Vote
+              For Biden</a>
+          </div>
+          <div class="row py-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/sports-category-4.webp" alt="Daniel Jones">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">Daniel Jones Roasted After Throwing Two
+              Interceptions in Loss to Bucs</a>
+          </div>
+          <div class="row pt-3">
+            <div class="mr-3 px-2 px-md-0 col-5 col-md-6">
+              <img class="img-fluid fixed-img" src="assets/img/sports-category-5.webp" alt="LeBron James">
+            </div>
+            <a class="col hover-underline-red text-reset p-0 h6" href="#">
+              LeBron James Urges Americans to Vote Biden: 'We Need Everything to Change'</a>
+          </div>
+        </div>
+        </section>
+    </div>
+    <!--  END OF 9TH ROW SPORTS CATEGORY-->
+
+    <div class="row container-fluid px-3">
+      <!-- SUBSCRIBE + NEWSLETTER -->
+      <aside class="row subscribe-newsletter-aside border-top border-bottom px-3 py-5 my-4">
+        <div class="col-lg-8 mb-4">
+          <article class="subscribe-article">
+            <h2 class="h6 text-red">SUBSCRIBE</h2>
+            <div class="row bg-light p-4">
+              <div class="col-5">
+                <div class="position-relative">
+                  <img class="img-fluid position-absolute subscribe-magazine-back" src="assets/img/subscribe-magazine-back.jpg" alt="magazine cover">
+                  <img class="img-fluid position-absolute subscribe-magazine-front" src="assets/img/subscribe-magazine-front.jpg" alt="magazine cover">
+                </div>
+              </div>
+              <div class="col ml-2 pb-5">
+                <h3 class="h4">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                <p class="top-articles-p my-3">All Access + Weekly Delivery.
+                  Choose A Membership That's Perfect for You!</p>
+                <button class="btn background-red text-white" type="button">SUBSCRIBE ></button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <article class="newsletter-article position-relative">
+            <h2 class="h6 text-red">NEWSLETTER</h2>
+            <div class="row">
+              <img class="img-fluid col-6" src="assets/img/newsletter.png" alt="">
+              <div class=" col-6 p-3">
+                <h3 class="h4 mb-2">The Starting 5</h3>
+                <p class="top-articles-p my-3">See why nearly a quarter of a million subscribers begin their day with
+                  the Starting 5.</p>
+               
+                  <input class="form-control" type="email" placeholder="Email address">
+                  <button class="btn background-red text-white mt-2 w-100" type="button">FREE SIGN UP ></button>
+              
+              </div>
+            </div>
+          </article>
+        </div>
+      </aside>
+      <!-- SUBSCRIBE + NEWSLETTER END -->
+    </div>
+    <!-- FORTH ROW -->
+
+    <!-- FIFTH ROW -->
+    <div class="row container-fluid px-3">
+      <!-- FOOTER -->
+      <footer class="col pb-5">
+        <div class="row align-bottom mb-2 pl-3 pb-3 border-bottom d-flex justify-content-start">
+          <svg class="footer-logo fill-red" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+          <div class="col-xm-12 col-md d-flex align-items-end p-0"><span class="font-f-arial">© 2020 NEWSWEEK DIGITAL
+              LLC</span></div>
+          <div class="col-xm-12 col-md footer-social-icons d-flex justify-content-start justify-content-md-end align-items-end p-0">
+            <a href="#"><i class="fa fa-facebook-official m-0" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item my-1"><a class="nav-link"><b>Editions:</b></a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">U.S. Edition</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">日本</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Pakistan</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Polska</a></li>
+          <li class="nav-item my-1"><a class="nav-link">România</a></li>
+        </ul>
+
+        <ul class="nav">
+          <li class="nav-item my-1"><a class="nav-link border-right">About Us</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Corrections</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Contact Us</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Editorial Guidelines</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Advertise</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Copyright</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Terms & Conditions</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Privacy Policy</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Cookie Policy</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Terms of Sale</a></li>
+          <li class="nav-item my-1"><a class="nav-link border-right">Archive</a></li>
+          <li class="nav-item my-1"><a class="nav-link">Announcements</a></li>
+        </ul>
+      </footer>
+      <!-- FOOTER END -->
+    </div>
+    <!-- FIFTH ROW END -->
+  </div>
+  <!-- MAIN CONTAINER END -->
+</body>
+
+</html>
