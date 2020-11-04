@@ -227,10 +227,12 @@
 }
 
 /* Sponsored Insights */
-.sponsored-tag {
+.sponsored-tags {
   left: 0;
+  color: #3581f4;
   bottom: 0;
   z-index: 10;
+  padding: 0 8px;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
